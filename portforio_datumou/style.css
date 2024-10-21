@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+video{
+    width: 100%;
+}
+
+h2{
+    color: gold;
+    text-align: center;
+}
+
+h2::first-letter{
+    font-size: 36px;
+}
+
+h3{
+    background-color: #333233;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bgi{
+        padding-top: 180px;
+        padding-bottom: 100px;
+        background-image: url(img/cloudy.png);
+        background-repeat: no-repeat;
+        background-size: 400px 400px;
+        margin: 10px;
+        cursor: pointer;
+        overflow: hidden;
+        transition-duration: 0.5s;
+    }
+
+.bgi:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+  }
+
+.list{
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    padding: 10px;
+    display: flex;
+}
+
+.list p{
+    padding: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.list > div{
+    width: 30%;
+    background-color: orange;
+}
+
+#aboutus{
+    display: flex;
+}
+
+#membersshipgift{
+    display: flex;
+}
+
+.left_section{
+    width: 50%;
+    text-align: center;
+}
+
+.left_section a{
+    color: aliceblue;
+    background-color: blue;
+    padding: 4px 4px 4px 4px;
+}
+
+.right_section{
+    width: 40%;
+    margin-left: 20px;
+}
+
+img{
+    width: 100%;
+    border-radius: 90px 90px 90px 90px;
+}
+
+#access{
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+#access img{
+    height: 500px;
+}
+
+footer{
+    text-align: center;
+    background: #000;
+    color: aliceblue;
+}
+
+footer img{
+    height: 100px;
+    width: 100px;
+}
